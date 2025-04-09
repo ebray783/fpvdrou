@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FPVDRON NFT Tokenomics Diagram</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f9fa;
+      padding: 30px;
+    }
+    h1 {
+      color: #f97316;
+      text-align: center;
+    }
+    .diagram {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+    }
+    .token {
+      background: #f97316;
+      color: white;
+      padding: 16px 24px;
+      border-radius: 12px;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .group {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 900px;
+    }
+    .box {
+      background: white;
+      padding: 16px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      width: 200px;
+      text-align: center;
+    }
+    .line {
+      width: 3px;
+      height: 30px;
+      background: #ccc;
+      margin: 10px auto;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>FPVDRON NFT Tokenomics & Ecosystem</h1>
+
+  <div class="diagram">
+    <div class="token">FPVDRON TOKEN (BEP-20)</div>
+    <div class="line"></div>
+
+    <div class="group">
+      <div class="box">10% Community<br><small>Airdrops & Giveaways</small></div>
+      <div class="box">10% Team<br><small>Developers & Contributors</small></div>
+      <div class="box">10% Pool Liquidity<br><small>DEX/CEX Listing</small></div>
+      <div class="box">10% NFT Holders<br><small>Holder Rewards</small></div>
+      <div class="box">10% Marketing<br><small>Promotions & Partnerships</small></div>
+      <div class="box">50% Locked<br><small>Unlocking Over 5 Years</small></div>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="group">
+      <div class="box">FPV Drone Store<br><small>Physical Parts</small></div>
+      <div class="box">NFT Collection<br><small>Digital Assets</small></div>
+      <div class="box">Exchange Listings<br><small>Tradable Token</small></div>
+      <div class="box">Rewards System<br><small>Future Staking</small></div>
+    </div>
+  </div>
+
+</body>
+</html>

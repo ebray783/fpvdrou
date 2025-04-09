@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FPVDRON NFT Tokenomics Diagram</title>
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      padding: 20px;
+    }
+    h1 {
+      color: #f97316;
+    }
+    .mermaid {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>FPVDRON NFT Tokenomics & Ecosystem</h1>
+  <div class="mermaid">
+    graph TD
+      A[FPVDRON TOKEN (BEP-20)] --> B[10% Community<br>Airdrops & Giveaways]
+      A --> C[10% Team<br>Developers & Contributors]
+      A --> D[10% Pool Liquidity<br>DEX/CEX Listing]
+      A --> E[10% NFT Holders<br>Holder Rewards]
+      A --> F[10% Marketing<br>Promotions & Partnerships]
+      A --> G[50% Locked<br>Unlocking Over 5 Years]
+
+      A --> H[FPV Drone Store<br>Physical Parts]
+      A --> I[NFT Collection<br>Digital Assets]
+      A --> J[Exchange Listings<br>Tradable Token]
+      A --> K[Rewards System<br>Future Staking & Benefits]
+
+      style A fill:#f97316,stroke:#333,stroke-width:2px,color:#fff
+      style B fill:#fff3cd
+      style C fill:#d1e7dd
+      style D fill:#cfe2ff
+      style E fill:#e2e3e5
+      style F fill:#fde2e2
+      style G fill:#e2eafc
+      style H fill:#fff
+      style I fill:#fff
+      style J fill:#fff
+      style K fill:#fff
+  </div>
+</body>
+</html>
